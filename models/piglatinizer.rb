@@ -19,7 +19,7 @@ class PigLatinizer
         result = word.concat("way").downcase
       end
       # result.downcase!
-      binding.pry
+      # binding.pry
       captialized ? result[0] = result[0].upcase : nil
       result
       # binding.pry
