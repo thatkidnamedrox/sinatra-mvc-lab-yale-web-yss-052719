@@ -4,7 +4,7 @@ class PigLatinizer
   end
 
   def piglatinize(string)
-    vowel? = lambda {|c| c =~ /[aeiou]/}
+    vowel = lambda {|c| c =~ /[aeiou]/}
     string.split(" ")
 
     stirng.map do |word|
