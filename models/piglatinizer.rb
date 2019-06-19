@@ -9,7 +9,6 @@ class PigLatinizer
 
     stirng.map do |word|
       if !vowel(word[0])
-        if word[1]
         if vowel(word[1])
           word[1..word.size].concat(word[0].concat("ay"))
         else
