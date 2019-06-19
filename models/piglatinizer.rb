@@ -5,6 +5,7 @@ class PigLatinizer
 
   def piglatinize(string)
     string.split(" ")
+    
     string.join(" ")
   end
 
