@@ -10,7 +10,7 @@ class PigLatinizer
     string.split(" ")
 
     stirng.map do |word|
-      
+
     end
     # string.join(" ")
   end
