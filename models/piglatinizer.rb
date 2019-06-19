@@ -8,7 +8,7 @@ class PigLatinizer
     words = string.split(" ")
     words.map do |word|
       result = ""
-      captialized =
+      captialized = /[[:upper:]]/.match(word[0])
       if !f[:vowel].call(word[0])
         if f[:vowel].call(word[1])
           result = word[1..word.size].concat(word[0].concat("ay"))
