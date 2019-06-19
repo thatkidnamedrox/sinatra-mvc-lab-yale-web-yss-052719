@@ -19,7 +19,8 @@ class PigLatinizer
         result = word.concat("way")
       end
 
-      captialized ? result[0] = result[0].upcase
+      captialized ? result[0] = result[0].upcase : nil
+      reuslt
 
       binding.pry
     end.join(" ")
