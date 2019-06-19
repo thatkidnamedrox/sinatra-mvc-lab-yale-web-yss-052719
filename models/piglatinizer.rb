@@ -16,6 +16,7 @@ class PigLatinizer
       else
         word.concat("way")
       end
+      binding.pry
     end.join(" ")
   end
 
