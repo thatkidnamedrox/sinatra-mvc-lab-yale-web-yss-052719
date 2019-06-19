@@ -20,7 +20,7 @@ class PigLatinizer
       end
 
       captialized ? result[0] = result[0].upcase : nil
-      reuslt
+      result
       # binding.pry
     end.join(" ")
   end
