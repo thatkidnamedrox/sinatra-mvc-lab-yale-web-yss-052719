@@ -5,8 +5,7 @@ class PigLatinizer
 
   def piglatinize(string)
     vowel = lambda {|c| c =~ /[aeiou]/ && c.is_a?(String)}
-    string.split(" ")
-
+    string = string.split(" ")
     string.map do |word|
       if !vowel(word[0])
         if vowel(word[1])
