@@ -8,9 +8,9 @@ class PigLatinizer
     string.split(" ")
 
     stirng.map do |word|
-      f[:]
-    end
-    # string.join(" ")
+      if !vowel(word.first)
+      end
+    end.join(" ")
   end
 
 end
