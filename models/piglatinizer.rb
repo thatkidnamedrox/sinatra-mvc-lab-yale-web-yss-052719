@@ -13,7 +13,7 @@ class PigLatinizer
         if f[:vowel].call(word[1])
           result = word[1..word.size].concat(word[0].concat("ay")).downcase
         else
-          result = word[2..word.size].concat(word[0..2].concat("ay")).downcase
+          result = word[2..word.size].concat(word[0...2].concat("ay")).downcase
         end
       else
         result = word.concat("way").downcase
